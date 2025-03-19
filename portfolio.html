@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Advisor Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Financial Advisor</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Providing expert financial advice to help you achieve your goals.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service-card">Investment Planning</div>
+        <div class="service-card">Retirement Strategies</div>
+        <div class="service-card">Tax Planning</div>
+    </section>
+    
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form id="appointment-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="date" id="date" required>
+            <button type="submit">Book Now</button>
+        </form>
+        <p id="appointment-message"></p>
+    </section>
+    
+    <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form id="newsletter-form">
+            <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p id="newsletter-message"></p>
+    </section>
+    
+    <script src="portfolio.js"></script>
+</body>
+</html>
